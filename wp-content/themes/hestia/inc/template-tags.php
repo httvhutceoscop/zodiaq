@@ -538,12 +538,30 @@ function hestia_the_header_content() {
 	$navbar_class = '';
 
 	if ( get_option( 'show_on_front' ) === 'page' && is_front_page() && ! is_page_template() ) {
-		$navbar_class = 'navbar-color-on-scroll navbar-transparent';
+		//$navbar_class = 'navbar-color-on-scroll navbar-transparent'; //VietNT comment on 22/06/2017
+		$navbar_class = 'navbar-color-on-scroll';
 	}
 	?>
 
 	<nav class="navbar navbar-default navbar-fixed-top <?php echo esc_attr( $navbar_class ); ?>">
 		<div class="container">
+
+			<!-- top menu -->
+			<div id="top-menu" class="row hidden-xs">
+				<div class="col-md-6 pad-l-0">
+					<div class="top-contact">
+						<i class="fa fa-info-circle" aria-hidden="true"></i> Contact us: <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:<?php echo get_option('admin_email'); ?>"><?php echo get_option('admin_email'); ?></a>
+					</div>
+				</div>
+				<div class="col-md-6 pad-r-0">
+					<div class="social-icon text-right">
+						<a href="#" class="facebook-icon">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
 					<span class="sr-only"><?php esc_html_e( 'Toggle Navigation', 'hestia' ); ?></span>

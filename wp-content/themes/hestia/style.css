@@ -95,7 +95,7 @@ input[type="button"],
 body {
 	color: #3c4858;
 	background-color: #e5e5e5;
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-weight: 300;
 	line-height: 1.5em;
 
@@ -108,7 +108,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-weight: 300;
 	line-height: 1.5em;
 }
@@ -165,7 +165,7 @@ h6 {
 .footer-big h4,
 .footer-big h5,
 .media .media-heading {
-	font-family: "Roboto Slab", "Times New Roman", serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto Slab", "Times New Roman", serif;
 	font-weight: 700;
 }
 
@@ -194,13 +194,13 @@ h2.title {
 
 .carousel h2.title {
 	margin-bottom: 20px;
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-size: 4.8em;
 	line-height: 1.15em;
 }
 .carousel h4 {
 	margin-bottom: 60px;
-	font-family: "Roboto Slab", "Times New Roman", serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto Slab", "Times New Roman", serif;
 	font-size: 1.3em;
 	line-height: 1.4em;
 }
@@ -2339,7 +2339,7 @@ table > tbody > tr:last-child {
 .hestia-about h4,
 .hestia-about h5 {
 	color: #3c4858;
-	font-family: "Roboto Slab", "Times New Roman", serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto Slab", "Times New Roman", serif;
 	font-weight: 700;
 	text-decoration: none;
 	word-wrap: break-word;
@@ -2932,7 +2932,7 @@ img.alignright,
 	width: 100%;
 }
 .media .media-heading small {
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 }
 .media .media-body {
 	padding-right: 10px;
@@ -3017,7 +3017,7 @@ aside .widget a {
 }
 .widget h5 {
 	margin-bottom: 10px;
-	font-family: "Roboto Slab", "Times New Roman", serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto Slab", "Times New Roman", serif;
 	font-size: 1.3em;
 	font-weight: 700;
 	line-height: 1.4em;
@@ -3201,7 +3201,7 @@ aside .widget a {
 	background-position: top center;
 }
 .woocommerce.single-product .product_title {
-	font-family: "Roboto Slab", "Times New Roman", serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto Slab", "Times New Roman", serif;
 	font-size: 2.6em;
 	font-weight: 700;
 	line-height: 1.5em;
@@ -3209,7 +3209,7 @@ aside .widget a {
 .woocommerce.single-product .summary .price {
 	margin: 10px 0 25px;
 	color: #3c4858;
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-size: 1.825em;
 	font-weight: 300;
 	line-height: 1.4em;
@@ -3291,7 +3291,7 @@ aside .widget a {
 }
 .woocommerce div.product form.cart .variations td label {
 	background: transparent;
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-weight: 400;
 	text-transform: none;
 }
@@ -3323,7 +3323,7 @@ aside .widget a {
 	text-decoration: none;
 }
 .woocommerce.single-product .section-text p {
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 1.5em;
@@ -3344,7 +3344,7 @@ aside .widget a {
 	background-color: #89229b;
 	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-	font-family: "Roboto Condensed", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto Condensed", sans-serif;
 	font-size: 12px;
 	font-weight: 300;
 	line-height: 50px;
@@ -3372,7 +3372,7 @@ aside .widget a {
 	border-radius: 3px;
 	color: #fff;
 	background-color: #9c27b0;
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -3382,7 +3382,7 @@ aside .widget a {
 	border-radius: 3px;
 	color: #fff;
 	background-color: #9c27b0;
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -3392,7 +3392,7 @@ aside .widget a {
 	border-radius: 3px;
 	color: #fff;
 	background-color: #9c27b0;
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -3402,7 +3402,7 @@ aside .widget a {
 	border-radius: 3px;
 	color: #fff;
 	background-color: #9c27b0;
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -3499,7 +3499,7 @@ aside .widget a {
 }
 .woocommerce .related.products h2 {
 	margin-bottom: 30px;
-	font-family: "Roboto Slab", "Times New Roman", serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto Slab", "Times New Roman", serif;
 	font-weight: 700;
 	text-align: center;
 }
@@ -3625,7 +3625,7 @@ aside .widget a {
 	border-radius: 3px;
 	color: #fff;
 	background-color: #9c27b0;
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -3640,7 +3640,7 @@ aside .widget a {
 	border-radius: 3px;
 	color: #fff;
 	background-color: #9c27b0;
-	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", "Helvetica", "Arial", sans-serif;
 	font-size: 10px;
 	font-weight: 400;
 	text-align: center;
@@ -4473,7 +4473,7 @@ div[id^=woocommerce_widget_cart].widget .buttons:after {
 		border-radius: 2px;
 		color: #fff;
 		background: #111;
-		font-family: "Roboto Condensed", sans-serif;
+		font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto Condensed", sans-serif;
 		font-size: 11px;
 		letter-spacing: 2px;
 		text-transform: uppercase;
@@ -5012,4 +5012,31 @@ footer .wpml-ls-item-legacy-dropdown-click a {
 #wp-link-close {
 	-webkit-box-shadow: none;
 	box-shadow: none;
+}
+
+/*--------------------------------------------------------------
+## VietNT customize css
+--------------------------------------------------------------*/
+.pad-l-0 {padding-left: 0 !important;}
+.pad-r-0 {padding-right: 0 !important;}
+#top-menu {
+	margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    margin-right: 0;
+    padding-bottom: 4px;
+}
+
+a.facebook-icon {
+    padding: 2px 9px;
+    border-radius: 4px;
+    background: #3b5998;
+    color: #fff;
+}
+
+.top-contact .fa-info-circle {
+	font-size: 24px;
+}
+
+.top-contact .fa-envelope {
+	font-size: 16px;
 }
