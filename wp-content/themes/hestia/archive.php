@@ -34,7 +34,8 @@ get_header(); ?>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center">
-							<?php the_archive_title( '<h1 class="title">', '</h1>' ); ?>
+							<?php //the_archive_title( '<h1 class="title">', '</h1>' ); ?> <!-- VietNT commented on 23/06/2017 -->
+							<h1 class="title"><?php single_cat_title( '' ); ?></h1> <!-- Remove Category text -->
 							<?php the_archive_description( '<h5 class="description">', '</h5>' ); ?>
 						</div>
 					</div>
