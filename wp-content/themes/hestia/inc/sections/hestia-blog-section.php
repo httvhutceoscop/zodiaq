@@ -26,16 +26,25 @@ if ( ! function_exists( 'hestia_blog' ) ) :
 		}
 		$hestia_blog_title = get_theme_mod( 'hestia_blog_title', __( 'Blog', 'hestia' ) );
 		$hestia_blog_items = get_theme_mod( 'hestia_blog_items', 3 );
+
+		//VietNT commented on 23/07/2017
+		$hestia_blog_title = pll__('news_title');
+		$hestia_blog_subtitle = pll__('news_subtitle');
+
 		?>
 		<section class="blogs hestia-blogs" id="blog" data-sorder="hestia_blog">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
 					<?php if ( ! empty( $hestia_blog_title ) || is_customize_preview() ) : ?>
-						<h2 class="title"><?php echo esc_html( $hestia_blog_title ); ?></h2>
+						<h2 class="title">
+							<?php echo esc_html( $hestia_blog_title ); ?>
+						</h2>
 					<?php endif; ?>
 					<?php if ( ! empty( $hestia_blog_subtitle ) || is_customize_preview() ) : ?>
-						<h5 class="description"><?php echo wp_kses_post( $hestia_blog_subtitle ); ?></h5>
+						<h5 class="description">
+							<?php echo wp_kses_post( $hestia_blog_subtitle ); ?>
+						</h5>
 					<?php endif; ?>
 					</div>
 				</div>

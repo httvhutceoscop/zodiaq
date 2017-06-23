@@ -26,6 +26,11 @@ if ( ! function_exists( 'hestia_subscribe' ) ) :
 		}
 
 		$hestia_subscribe_title = get_theme_mod( 'hestia_subscribe_title', __( 'Subscribe to our Newsletter', 'hestia' ) );
+
+		//VietNT commented on 23/07/2017
+		$hestia_subscribe_title = pll__('subscribe_title');
+		$hestia_subscribe_subtitle = pll__('subscribe_subtitle');
+
 			?>
 		<section class="subscribe-line subscribe-line-image" id="subscribe" data-sorder="hestia_subscribe" style="background-image: url('<?php echo get_theme_mod( 'hestia_subscribe_background', get_template_directory_uri() . '/assets/img/about.jpg' ); ?>');">
 			<?php
@@ -38,10 +43,14 @@ if ( ! function_exists( 'hestia_subscribe' ) ) :
 				<div class="row text-center">
 					<div class="col-md-8 col-md-offset-2 text-center">
 					<?php if ( ! empty( $hestia_subscribe_title ) || is_customize_preview() ) : ?>
-						<h2 class="title"><?php echo esc_html( $hestia_subscribe_title ); ?></h2>
+						<h2 class="title">
+							<?php echo esc_html( $hestia_subscribe_title );?>
+						</h2>
 					<?php endif; ?>
 					<?php if ( ! empty( $hestia_subscribe_subtitle ) || is_customize_preview() ) : ?>
-						<h5 class="subscribe-description"><?php echo wp_kses_post( $hestia_subscribe_subtitle ); ?></h5>
+						<h5 class="subscribe-description">
+							<?php echo wp_kses_post( $hestia_subscribe_subtitle ); ?>
+						</h5>
 					<?php endif; ?>
 					</div>
 				</div>

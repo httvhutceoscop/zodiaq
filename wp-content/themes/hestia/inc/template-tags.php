@@ -550,11 +550,14 @@ function hestia_the_header_content() {
 			<div id="top-menu" class="row hidden-xs">
 				<div class="col-md-6 pad-l-0">
 					<div class="top-contact">
-						<i class="fa fa-info-circle" aria-hidden="true"></i> Contact us: <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:<?php echo get_option('admin_email'); ?>"><?php echo get_option('admin_email'); ?></a>
+						<i class="fa fa-info-circle" aria-hidden="true"></i> <?php pll_e('お問い合わせ')?>: <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:<?php echo get_option('admin_email'); ?>"><?php echo get_option('admin_email'); ?></a>
 					</div>
 				</div>
 				<div class="col-md-6 pad-r-0">
-					<div class="social-icon text-right">
+					<div class="pull-right switch-languages">
+						<?php echo polylang_shortcode(); ?>
+					</div>
+					<div class="social-icon text-right pull-right">
 						<a href="#" class="facebook-icon">
 							<i class="fa fa-facebook" aria-hidden="true"></i>
 						</a>

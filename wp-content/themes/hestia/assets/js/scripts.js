@@ -382,5 +382,8 @@ jQuery(document).ready(function($) {
         fixHeaderPadding();
     });
 
+    //VietNT added on 23/06/2017
+    $('.lang-item.menu-item').addClass('hidden-lg hidden-md');
+
 });
 

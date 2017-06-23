@@ -732,6 +732,89 @@ function hestia_themeisle_sdk(){
 	);
 }
 
-hestia_themeisle_sdk(); 
+hestia_themeisle_sdk();
 
- 
+
+// Register the translator word
+pll_register_string('jp_blog', 'ブログ');
+pll_register_string('jp_contact_us', 'お問い合わせ');
+
+pll_register_string('jp_our_service_title', 'our_service_title');
+pll_register_string('jp_our_service_subtitle', 'our_service_subtitle');
+
+pll_register_string('jp_about_us_title', 'about_us_title');
+pll_register_string('jp_about_us_subtitle', 'about_us_subtitle');
+
+pll_register_string('jp_our_project_title', 'our_project_title');
+pll_register_string('jp_our_project_subtitle', 'our_project_subtitle');
+
+pll_register_string('jp_our_team_title', 'our_team_title');
+pll_register_string('jp_our_team_subtitle', 'our_team_subtitle');
+
+pll_register_string('jp_subscribe_title', 'subscribe_title');
+pll_register_string('jp_subscribe_subtitle', 'subscribe_subtitle');
+
+pll_register_string('jp_news_title', 'news_title');
+pll_register_string('jp_news_subtitle', 'news_subtitle');
+
+// Polylang Shortcode - https://wordpress.org/plugins/polylang/
+// Add this code in your functions.php
+// Put shortcode [polylang] to post/page for display flags
+function polylang_shortcode() {
+	ob_start();
+	pll_the_languages(array('show_flags'=>1,'show_names'=>0));
+	$flags = ob_get_clean();
+	return $flags;
+}
+add_shortcode( 'polylang', 'polylang_shortcode' );
+
+// Put shortcode [ourservices] to get text
+function ourservices_shortcode() {
+	$output = translate_shortcode('サービス', 'Our services');
+    return $output;
+}
+add_shortcode('ourservices', 'ourservices_shortcode');
+
+// Put shortcode [ourprojects] to get text
+function ourprojects_shortcode() {
+	$output = translate_shortcode('プロジェクト', 'Our projects');
+    return $output;
+}
+add_shortcode('ourprojects', 'ourprojects_shortcode');
+
+// Put shortcode [ourteam] to get text
+function ourteam_shortcode() {
+	$output = translate_shortcode('チーム', 'Our team');
+    return $output;
+}
+add_shortcode('ourteam', 'ourteam_shortcode');
+
+// Put shortcode [ourteam] to get text
+function subscribe_shortcode($title = '', $subtitle = '') {
+	$output = translate_shortcode('ニュースレターをサブスクライブする。', 'Subscribe to our Newsletter');
+    return $output;
+}
+add_shortcode('subscribe', 'subscribe_shortcode');
+
+function translate_shortcode($ja_txt = '', $en_txt = '') {
+	$currentLanguage  = get_bloginfo('language');
+    $output = $ja_txt;
+    if ($currentLanguage == 'en-US') {
+    	$output = $en_txt;
+    }
+    return $output;
+}
+
+function translate_text() {
+	$currentLanguage  = get_bloginfo('language');
+	$txt = "<script>
+		jQuery(document).ready( function() {
+			jQuery('#backTop').backTop({
+				'position' : 200,
+				'speed' : 1000,
+				'color' : 'red',
+				'size' : 'small',
+			});
+		});
+		</script>";
+}
