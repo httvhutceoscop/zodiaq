@@ -744,8 +744,8 @@ pll_register_string('jp_contact_subtitle', 'contact_subtitle');
 pll_register_string('jp_contact_address', 'contact_address');
 pll_register_string('jp_contact_ring', 'contact_ring');
 
-pll_register_string('jp_our_service_title', 'our_service_title');
-pll_register_string('jp_our_service_subtitle', 'our_service_subtitle');
+pll_register_string('jp_our_service_title', 'our_service_title', 'Features section');
+pll_register_string('jp_our_service_subtitle', 'our_service_subtitle', 'Features section');
 
 pll_register_string('jp_about_us_title', 'about_us_title');
 pll_register_string('jp_about_us_subtitle', 'about_us_subtitle');
@@ -756,20 +756,20 @@ pll_register_string('jp_our_project_subtitle', 'our_project_subtitle');
 pll_register_string('jp_our_team_title', 'our_team_title');
 pll_register_string('jp_our_team_subtitle', 'our_team_subtitle');
 
-pll_register_string('jp_subscribe_title', 'subscribe_title');
-pll_register_string('jp_subscribe_subtitle', 'subscribe_subtitle');
+pll_register_string('jp_subscribe_title', 'subscribe_title', 'Newsletter');
+pll_register_string('jp_subscribe_subtitle', 'subscribe_subtitle', 'Newsletter');
 
 pll_register_string('jp_news_title', 'news_title');
 pll_register_string('jp_news_subtitle', 'news_subtitle');
 
 //slider section
-pll_register_string('hestia_big_title_title', 'hestia_big_title_title');
-pll_register_string('hestia_big_title_text', 'hestia_big_title_text');
-pll_register_string('hestia_big_title_button_text', 'hestia_big_title_button_text');
+pll_register_string('hestia_big_title_title', 'hestia_big_title_title', 'Slider section');
+pll_register_string('hestia_big_title_text', 'hestia_big_title_text', 'Slider section');
+pll_register_string('hestia_big_title_button_text', 'hestia_big_title_button_text', 'Slider section');
 
 //feature section
-pll_register_string('hestia_features_title', 'hestia_features_title');
-pll_register_string('hestia_features_subtitle', 'hestia_features_subtitle');
+pll_register_string('hestia_features_title', 'hestia_features_title', 'Features section');
+pll_register_string('hestia_features_subtitle', 'hestia_features_subtitle', 'Features section');
 
 //team section
 pll_register_string('hestia_team_title', 'hestia_team_title');
