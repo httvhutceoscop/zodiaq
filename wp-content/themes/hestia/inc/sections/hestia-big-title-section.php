@@ -34,6 +34,11 @@ if ( ! function_exists( 'hestia_big_title' ) ) :
 					}
 					$hestia_big_title_background  = get_theme_mod( 'hestia_big_title_background', get_template_directory_uri() . '/assets/img/slider2.jpg' );
 
+					//VietNT added on 26/06/2017
+					$hestia_big_title_title = pll__('hestia_big_title_title');
+					$hestia_big_title_text = pll__('hestia_big_title_text');
+					$hestia_big_title_button_text = pll__('hestia_big_title_button_text');
+
 					if ( ! empty( $hestia_big_title_background ) || ! empty( $hestia_big_title_title ) || ! empty( $hestia_big_title_text ) || ( ! empty( $hestia_big_title_button_text ) && ! empty( $hestia_big_title_button_link ) ) ) { ?>
 						<div class="item active">
 							<div class="page-header header-filter" <?php if ( ! empty( $hestia_big_title_background ) ) {  echo 'style="background-image: url(' . esc_url( $hestia_big_title_background ) . ')"';} ?>>

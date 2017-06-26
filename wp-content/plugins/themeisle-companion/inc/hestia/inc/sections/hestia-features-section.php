@@ -50,11 +50,15 @@ if ( ! function_exists( 'hestia_features' ) ) :
 			$hestia_features_content  = get_theme_mod( 'hestia_features_content' );
 		}
 
+		//VietNT added on 26/06/2017
+		$hestia_features_title = pll__('hestia_features_title');
+		$hestia_features_subtitle = pll__('hestia_features_subtitle');
+
 		if ( ( ( is_single() && ( (bool) $show_features_single_product === false ) ) || ( is_front_page() && ( (bool) $hide_section === true ) ) ) || ( ( empty( $hestia_features_title ) ) && ( empty( $hestia_features_subtitle ) ) && ( empty( $hestia_features_content ) ) ) ) {
 			return;
 		}
 		?>
-		<section class="features" id="features" data-sorder="hestia_features">
+		<section class="features vietnt-features" id="features" data-sorder="hestia_features">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">

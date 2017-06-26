@@ -737,7 +737,12 @@ hestia_themeisle_sdk();
 
 // Register the translator word
 pll_register_string('jp_blog', 'ブログ');
-pll_register_string('jp_contact_us', 'お問い合わせ');
+pll_register_string('jp_contact_us', 'contact_us');
+pll_register_string('jp_get_in_touch', 'get_in_touch');
+pll_register_string('jp_contact_subtitle', 'contact_subtitle');
+
+pll_register_string('jp_contact_address', 'contact_address');
+pll_register_string('jp_contact_ring', 'contact_ring');
 
 pll_register_string('jp_our_service_title', 'our_service_title');
 pll_register_string('jp_our_service_subtitle', 'our_service_subtitle');
@@ -756,6 +761,19 @@ pll_register_string('jp_subscribe_subtitle', 'subscribe_subtitle');
 
 pll_register_string('jp_news_title', 'news_title');
 pll_register_string('jp_news_subtitle', 'news_subtitle');
+
+//slider section
+pll_register_string('hestia_big_title_title', 'hestia_big_title_title');
+pll_register_string('hestia_big_title_text', 'hestia_big_title_text');
+pll_register_string('hestia_big_title_button_text', 'hestia_big_title_button_text');
+
+//feature section
+pll_register_string('hestia_features_title', 'hestia_features_title');
+pll_register_string('hestia_features_subtitle', 'hestia_features_subtitle');
+
+//team section
+pll_register_string('hestia_team_title', 'hestia_team_title');
+pll_register_string('hestia_team_subtitle', 'hestia_team_subtitle');
 
 // Polylang Shortcode - https://wordpress.org/plugins/polylang/
 // Add this code in your functions.php
@@ -789,12 +807,26 @@ function ourteam_shortcode() {
 }
 add_shortcode('ourteam', 'ourteam_shortcode');
 
-// Put shortcode [ourteam] to get text
+// Put shortcode [subscribe] to get text
 function subscribe_shortcode($title = '', $subtitle = '') {
 	$output = translate_shortcode('ニュースレターをサブスクライブする。', 'Subscribe to our Newsletter');
     return $output;
 }
 add_shortcode('subscribe', 'subscribe_shortcode');
+
+// Put shortcode [address]
+function address_shortcode() {
+	$output = translate_shortcode('住所', 'Address');
+    return $output;
+}
+add_shortcode('address', 'address_shortcode');
+
+// Put shortcode [address]
+function ring_shortcode() {
+	$output = translate_shortcode('お問い合わせ先', 'Give us a ring');
+    return $output;
+}
+add_shortcode('ring', 'ring_shortcode');
 
 function translate_shortcode($ja_txt = '', $en_txt = '') {
 	$currentLanguage  = get_bloginfo('language');

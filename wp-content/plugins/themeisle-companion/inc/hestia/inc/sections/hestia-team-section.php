@@ -142,6 +142,10 @@ if ( ! function_exists( 'hestia_team' ) ) :
 			$hestia_team_content  = get_theme_mod( 'hestia_team_content' );
 		}// End if().
 
+		//VietNT added on 26/06/2017
+		$hestia_team_title = pll__('hestia_team_title');
+		$hestia_team_subtitle = pll__('hestia_team_subtitle');
+
 		$hide_section = get_theme_mod( 'hestia_team_hide', false );
 		if ( ( (bool) $hide_section === true ) || ( empty( $hestia_team_title ) && empty( $hestia_team_subtitle ) && empty( $hestia_team_content ) ) ) {
 			return;

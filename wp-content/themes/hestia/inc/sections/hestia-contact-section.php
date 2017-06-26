@@ -26,6 +26,11 @@ if ( ! function_exists( 'hestia_contact' ) ) :
 		}
 		$hestia_contact_title      = get_theme_mod( 'hestia_contact_title', __( 'Get in Touch', 'hestia' ) );
 		$hestia_contact_area_title = get_theme_mod( 'hestia_contact_area_title', __( 'Contact Us', 'hestia' ) );
+
+		//VietNT added on 26/06/2017
+		$hestia_contact_title = pll__('get_in_touch');
+		$hestia_contact_area_title = pll__('contact_us');
+		$hestia_contact_subtitle = pll__('contact_subtitle');
 		?>
 		<section class="contactus section-image" id="contact" data-sorder="hestia_contact"
 				 style="background-image: url('<?php echo get_theme_mod( 'hestia_contact_background', get_template_directory_uri() . '/assets/img/contact.jpg' ); ?>')">
@@ -47,12 +52,37 @@ if ( ! function_exists( 'hestia_contact' ) ) :
 						<?php
 
 						$hestia_contact_content = get_theme_mod( 'hestia_contact_content_new', hestia_contact_get_old_content( 'hestia_contact_content' ) );
+
+						$hestia_contact_content = 'a'; //VietNT added on 23/06/2017
+
 						if ( ! empty( $hestia_contact_content ) ) {
 							echo '<div class="description hestia-description">';
-								echo wp_kses_post( $hestia_contact_content );
+								//echo wp_kses_post( $hestia_contact_content );
+
+								//VietNT added on 23/06/2017
+								$contact_address = pll__('contact_address');
+								$contact_ring = pll__('contact_ring');
+								$contact_ring = explode('@', $contact_ring);
+
+								echo '<div class="info info-horizontal">
+									    <div class="icon icon-primary"><i class="fa fa-map-marker"></i></div>
+									    <div class="description">
+									        <h4 class="info-title">'.address_shortcode().'</h4>
+									        <p>'.$contact_address.'</p>
+									    </div>
+									</div>
+									<div class="info info-horizontal">
+									    <div class="icon icon-primary"><i class="fa fa-mobile"></i></div>
+									    <div class="description">
+									        <h4 class="info-title">'.ring_shortcode().'</h4>
+									        <p>
+									        	'.$contact_ring[0].'
+									            <br> '.$contact_ring[1].'
+								            </p>
+									    </div>
+									</div>';
 							echo '</div>';
 						}
-
 						?>
 					</div>
 					<?php if ( defined( 'PIRATE_FORMS_VERSION' ) ) { ?>
