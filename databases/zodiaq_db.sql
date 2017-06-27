@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 27, 2017 at 10:20 AM
+-- Generation Time: Jun 27, 2017 at 10:25 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -1066,7 +1066,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (679, 1941, '_edit_lock', '1498017575:1'),
 (680, 1870, '_edit_lock', '1498017595:1'),
 (681, 1861, '_edit_lock', '1498017750:1'),
-(682, 3439, '_edit_lock', '1498462838:1'),
+(682, 3439, '_edit_lock', '1498551713:1'),
 (684, 3477, '_wp_attached_file', '2017/06/cropped-logo-zodiaq.png'),
 (685, 3477, '_wp_attachment_context', 'custom-logo'),
 (686, 3477, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:351;s:6:\"height\";i:100;s:4:\"file\";s:31:\"2017/06/cropped-logo-zodiaq.png\";s:5:\"sizes\";a:2:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:31:\"cropped-logo-zodiaq-150x100.png\";s:5:\"width\";i:150;s:6:\"height\";i:100;s:9:\"mime-type\";s:9:\"image/png\";}s:6:\"medium\";a:4:{s:4:\"file\";s:30:\"cropped-logo-zodiaq-300x85.png\";s:5:\"width\";i:300;s:6:\"height\";i:85;s:9:\"mime-type\";s:9:\"image/png\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
